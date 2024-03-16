@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    /*margin-left: 1em;*/
+    margin-left: 50%;
+    margin-top: -3%;
+    font:bold;
+    font-size:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+body {
+    background-color: rgb(156, 124, 147);
+    margin-top: 10%;
+    /* Pixabay License Free for commercial use No attribution required(https://pixabay.com/)*/
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/04/22/22/grey-2715737_1280.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom:90%;
+    
+}
+
+.container {
+
+
+    width: 200px;
+    height: 120px;
+}
+
+.container img {
+    margin-top: 2em;
+    margin-left: 2em;
+    width:150%;
+    size:inherit;
+    height: auto;
+    margin: right 20px;
+    display:block;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+p.p1
+{
+    text-align: justify;
+    position: relative;
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: -5em; 
+    font-size: large;
+    font-weight:500;
+   
+}
+
+p.p2
+{
+    text-align: justify;
+    position: relative;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 1em;
+    font-size: large;
+    font-weight:500;
+    
+}
+
+li {
+    float : left;
+}
+
+.title{
+    color: white;
+    padding: 2px 5px;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: right;
+    align-items: center;
+    z-index: 9;
+    display: flex;
+    gap: 0.5em;
+    font-size: 18px;
+    background-color: black;
+}
+
+.navbar a{
+    
+    zoom: 75%;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 2px 5px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+}
+
+.navbar a:hover {
+    color:rgb(166, 171, 175);
+  }
+
+.head{
+    text-align:Justify;
+    
+    padding-left:-30%;
+
+}
+
+@media only screen and (max-width: 1000px) and (orientation:portrait){
+
+    h1{
+        /*margin-left: 1em;*/
+        margin-left: 30%;
+        margin-top: 25%;
+        font:bold;
+        font-size:30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+    }
+    
+    .container {
+        width:80%;
+        height:auto;
+        padding-left: 10%;
+        padding-right: 30%;
+        padding-bottom: 15%;
+    }
+    
+    .container img {
+        margin-top: 1.5em;
+        margin-left: 3em;
+        width:150%;
+        size:inherit;
+        height: auto;
+        display:block;
+       
+    }
+    p.p1
+    {
+        text-align: left;
+        position:sticky; 
+        padding-left: 20%;
+        padding-right: 15%;
+        zoom: 45%;
+        font-size: 4vh;
+       
+    }
+    
+    p.p2
+    {
+        text-align: justify;
+        position: relative;
+        padding-left: 20%;
+        padding-right: 15%;
+        zoom: 45%;
+        font-size: 4vh;
+       
+    }
+    
+    li {
+        float : left;
+    }
+    
+    .title{
+        color: white;
+        padding: 2px 5px;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: right;
+        align-items: center;
+        z-index: 9;
+        display: flex;
+        gap: 0.5em;
+        font-size: 18px;
+        background-color: black;
+    }
+    
+    .navbar a{
+        zoom:50%;
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 2px 5px;
+        margin: 0 20px;
+        line-height: 80px;
+        transition: .5s;
+        font-size: 3vh;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+        background-color: rgb(156, 124, 147);
+        margin-top: 10%;
+        background-image: url("https://cdn.pixabay.com/photo/2017/09/04/22/22/grey-2715737_1280.jpg");
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+        
+    }
+
+    
+    
+  }
+
+  @media only screen and (max-width: 1200px) and (orientation:landscape){
+
+    h1{
+        /*margin-left: 1em;*/
+        margin-left: 33%;
+        margin-top: 15%;
+        font:bold;
+        font-size:30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+    }
+    
+    .container {
+        width:80%;
+        height:auto;
+        padding-left: 10%;
+        padding-right: 30%;
+        padding-bottom: 10%;
+    }
+    
+    .container img {
+        margin-top: 1.5em;
+        margin-left: 3em;
+        width:150%;
+        size:inherit;
+        height: auto;
+        display:block;
+       
+    }
+    p.p1
+    {
+        text-align: left;
+        position:sticky; 
+        padding-left: 20%;
+        padding-right: 15%;
+        font-size:5vh;
+        zoom: 45%;
+    }
+    
+    p.p2
+    {
+        text-align: justify;
+        position: relative;
+        padding-left: 20%;
+        padding-right: 15%;
+        font-size:5vh;
+        zoom: 45%;
+       
+    }
+    
+    li {
+        float : left;
+    }
+    
+    .title{
+        color: white;
+        padding: 2px 5px;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: right;
+        align-items: center;
+        z-index: 9;
+        display: flex;
+        gap: 0.5em;
+        font-size: 18px;
+        background-color: black;
+    }
+    
+    .navbar a{
+        zoom:70%;
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 2px 5px;
+        margin: 0 20px;
+        line-height: 80px;
+        transition: .5s;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+        background-color: rgb(156, 124, 147);
+        margin-top: 10%;
+        background-image: url("https://cdn.pixabay.com/photo/2017/09/04/22/22/grey-2715737_1280.jpg");
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        zoom:100%;
+    }
+
+    
+    
+  }
+
